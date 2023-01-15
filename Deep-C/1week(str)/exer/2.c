@@ -6,6 +6,12 @@ int main(){
     char str2[100];
     scanf("%s %s", str1, str2);
     unsigned long l1 = strlen(str1);
-    unsigned long l2 = strlen(str2);
+    unsigned long l2 = strlen(str2);\
+
     printf("%lu", l1 > l2 ? l1 : l2);
+    
+    // if (l1>l2)
+    //     printf("%lu", l1);
+    // else
+    //     printf("%lu", l2);    
 }

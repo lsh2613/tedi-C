@@ -2,13 +2,13 @@
 #include <string.h>
 int main(){
 
-    char str[100];
+    char str[100]; // "abc" , 길이=3
     int c=0;
     int ab=0;
     
-    scanf("%s", str);
-
-    for (int i = 0; i < strlen(str)-2; i++)
+    scanf("%s", str); 
+    //                     3
+    for (int i = 0; i < strlen(str); i++)
     {
         if (str[i]=='c')
             c++;        
