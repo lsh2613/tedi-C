@@ -7,11 +7,11 @@ typedef struct student
     int k_score;
     int e_score;
     int m_score;
-}s;
+}stu;
 
 int main(){
-    s s[5];
-    struct student stu[3];
+    // struct student stu[3];
+    stu s[5];
     
     s[0].h=1234;
 

@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main(){
-    char str1[30]="이승헌";
-    char str2[]="이승헌";
-    char str3[30];
-
-    str3="이승헌";
-    str3[30]="이승헌";
-
-    printf("%s", str1);
-    printf("%s", str2);
+    int a[10];
+    int sum=0;
+    for (int i = 0; i < 10; i++)
+    {
+        scanf("%d", &a[i]);
+        sum+=a[i];
+    }
+    printf("%d", sum);
 }

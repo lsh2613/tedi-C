@@ -9,7 +9,7 @@ int main(){
 
     // 안 되는 예
     char str3[30];
-    str3="이승헌";
+    // str3="이승헌";
     str3[30]="이승헌";
 
     printf("%s", str1);
