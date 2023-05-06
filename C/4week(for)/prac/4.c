@@ -5,10 +5,8 @@ int main() {
     scanf("%d", &n);
     for (int i = n; i<=n*10; i+=n)
     {
-        if (i<n*10)
-        {
-            printf("%d, ",i);
-        }
+        if (i < n*10)
+            printf("%d , ",i);
         else
             printf("%d", i);
     }

@@ -4,6 +4,14 @@
         "__bit_reference": "c",
         "bitset": "c",
         "chrono": "c",
-        "unordered_map": "c"
-    }
+        "unordered_map": "c",
+        "ios": "c",
+        "stdlib.h": "c",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "queue": "cpp",
+        "ostream": "cpp",
+        "stack": "cpp",
+        "string": "cpp"
+    },
 }

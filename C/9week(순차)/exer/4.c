@@ -28,13 +28,8 @@ int main(){
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
-        {
-            if (a[i] == b[j])
-            {
-                printf("%d", i>j ? i-j : j-i);
-            }
-        }
+        int diff = a[i]-b[i];
+        printf("%d ", diff > 0 ? diff : -diff);
     }
     
     // printf("\n");

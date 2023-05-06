@@ -13,21 +13,21 @@ int main(){
         }
     }
 
-    for (int i = n; i >= 1; i--)
+    for (int i = n-1; i >= 0; i--)
     {
-        if (i%2==0)
+        if (i%2==1)
         {
             for (int j = 0; j < n; j++)
             {
-                printf("%3d ", a[i-1][j]);
+                printf("%3d ", a[i][j]);
             }
         }
 
-        if (i%2==1)
+        if (i%2==0)
         {
             for (int j = n-1; j >= 0; j--)
             {
-                printf("%3d ", a[i-1][j]);
+                printf("%3d ", a[i][j]);
             }
         }
         printf("\n");

@@ -19,8 +19,8 @@ int main(){
             sum+=b;
             sum+=2*a;
         }
-        
     }
+
     else if (a<b)
     {
         //생략

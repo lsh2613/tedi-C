@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a=1, b=2;
+    int a=1, b=1;
 
     if (a>0)
         printf("1\n");

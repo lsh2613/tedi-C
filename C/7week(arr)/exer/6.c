@@ -2,13 +2,15 @@
 int main(){
 
     int a[10];
-    int num=70;
+    int n;
+    scanf("%d", &n);
+    int val=n;
     for (int i = 0; i < 10; i++)
     {
-        a[i]=num;
-        num-=7;
+        a[i]=val;
+        val+=n;
     }
-    for (int i = 0; i < 10; i++)
+    for (int i = 9; i >= 0; i--)
     {
         printf("%d ", a[i]);
     }

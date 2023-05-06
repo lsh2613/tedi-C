@@ -14,7 +14,7 @@ void init(int *s){
 }
 
 void push(int *s){
-    if (cur>9)
+    if (cur>=10)
     {
         return;
     }

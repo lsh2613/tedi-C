@@ -9,8 +9,12 @@ int main(){
 
     scanf("%d %d", pa, pb);
 
-    *pa = *pa>0 ? *pa : -*pa;
-    *pb = *pb>0 ? *pb : -*pb;
+    printf("%d", *pa**pa>*pb**pb ? *pa : *pb);
 
-    printf("%d", *pa>*pb ? *pa : *pb);
+    // int absA, absB;
+
+    // absA = *pa>0 ? *pa : -*pa;
+    // absB = *pb>0 ? *pb : -*pb;
+
+    // printf("%d", absA>=absB ? *pa : *pb);
 }

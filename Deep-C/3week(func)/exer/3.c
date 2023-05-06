@@ -2,7 +2,7 @@
 
 int lcm(int a, int b){
     int divisor;
-    for (int i = 0; i <= a; i++)
+    for (int i = 1; i <= a; i++)
     {
         if (a%i==0 && b%i==0)
             divisor=i;
@@ -11,7 +11,7 @@ int lcm(int a, int b){
 }
 
 int main(){
-    int n,m;
+    int n, m;
     for (int  i = 0; i < 3; i++)
     {   
         scanf("%d %d", &n, &m);

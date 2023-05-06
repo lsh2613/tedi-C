@@ -7,6 +7,5 @@ int main(){
     if (n<0)
         n = -n;
     
-
     printf("절대값은 %d 입니다.", n);    
 }

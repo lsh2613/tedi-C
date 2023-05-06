@@ -37,23 +37,22 @@ void pop(int *s){
 }
 
 void printStack(int *s){
-    for (int i = 0; i < 10; i++)
+    for (int i = cur-1; i >=0; i--)
     {
-        printf("%d S의 값 : %d\n", i, s[i]);
+        printf("%d\n", s[i]);
     }
 }
 
 int main(){
 
     int n;
-    char command[2];
+    char command[8];
 
     init (s);
     
     printf("0~10 사이의 수 입력 : ");
     scanf("%d", &n);
 
-    //for문 조건식 5자리에 변수n을 넣으면 1번만 실행되는 오류, 특정 값 넣어서 실행
     for (int i=0; i<n; i++)
     {
         scanf("%s", command);

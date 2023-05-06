@@ -4,6 +4,7 @@ int main(){
 
     int a=5;
     float b = a/2;
+    printf("a = %d\n", a);
     printf("a/2 %%d: %d\n", a/2); //2
     printf("a/2 %%f: %f\n", a/2); //X
     printf("a/2 %%f %f\n", b); // 2.000000

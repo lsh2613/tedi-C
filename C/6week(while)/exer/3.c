@@ -5,10 +5,10 @@ int main() {
     while (1)
     {
         scanf("%d", &n);
-        if (n>=0)
-            cnt++;
-        else
+        
+        if (n<0)
             break;
+        cnt++;        
     }
     printf("%d", cnt);
     
